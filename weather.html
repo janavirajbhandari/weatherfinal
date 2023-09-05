@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap" rel="stylesheet">
+  
+  </head>
+  <body>
+   
+    <div id="row">
+      <a id="store" href="weather.php">Records</a>
+      <input type="text" placeholder="Search the location" id="input-box">
+      <button id="touch"><img src="download.png" id="btn"> </button>
+    </div>
+    <div id="container">
+      <div id="left">
+      <div id="top">
+        <p id="date"></p>
+        <p id="time"></p>
+        </div>
+      <center><B><h1 id="names"></h1></B>
+      <img id="code">
+      <p id="temps"></p>
+      <p id="minmax"></p>
+      <p id="des"></p> </center>
+      
+      
+      </div>
+      <div id="right">
+        <div id="one"><center><img id="pic" src="hum-removebg-preview.png"><h2>Humidity</h2> <p id="hum"></p> </center></div>
+        <div id="two"> <center><img id="pic"src="press-removebg-preview.png"><h2>Pressure</h2><p id="press"></p></center></div>
+        <div id="third"><center><img id="pic" src="speed-removebg-preview.png"> <h2>Speed</h2><p id="wind"></p></center></div>
+        <div id="forth"><center><img  id="pic" src="vis.png"><h2>Visibility</h2><p id="vis"></p></center></div> 
+        
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+  
+</html>

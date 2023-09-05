@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+body {
+  background: url(images.jpg) no-repeat;
+  background-size: cover;
+}
+#row {
+  display: flex;
+  padding-left: 0px;
+  margin-top: 25px;
+  width: 80%;
+}
+#input-box {
+  flex: 1;
+  background: transparent;
+  padding: 0px;
+  width: 160px;
+  font-weight: 20px;
+  font-size: 18px;
+  margin-left: 1000px;;
+  border-style: solid;
+  border-bottom: thin line #de0c0c;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+#btn{
+  background: transparent;
+}
+img{
+  width: 30px;
+  border-radius: 50px;
+  background: transparent;
+}
+#store {
+  cursor: pointer;
+  margin-left: 20px;
+  background-color: #94A5D6;
+  color: #30335E;
+  padding: 10px 27px;
+  font-size: 17px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  text-decoration: none; /* Remove underline from link */
+  display: inline-block; /* Make the link behave like a block element */
+}
+
+#store:hover {
+  background-color: #30335E;
+  color: aliceblue;
+}
+  
+#touch {
+
+  width: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 40px;
+  margin-left:25px;
+  background: transparent;
+}
+h2{
+    text-align: center;
+    color: #515589;
+}
+#container {
+  margin-top: 25px;
+  display:flex;
+  flex-wrap: wrap;
+}
+#details{
+   width: 250px;
+   height: 335px;
+   background:linear-gradient(135deg, #94A5D6 0%, #6B4B6A 120%);
+   display:flex;
+   flex-wrap: wrap;
+   margin:10px 20px 20px;
+   line-height: 2;
+   padding:20px;
+ }
+ h3{
+    border-style: solid;
+    color: #30335E;
+    border-bottom: thin line #30335E;
+ }
+ #dets{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 18px;
+ }
+ i{
+    font-size: 20px;
+ }
